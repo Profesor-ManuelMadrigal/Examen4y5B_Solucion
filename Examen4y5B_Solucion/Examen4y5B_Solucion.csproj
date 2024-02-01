@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Imagenes\coche.png" />
+    <None Remove="Imagenes\concesionario.ico" />
+    <None Remove="Imagenes\furgoneta.png" />
+    <None Remove="Imagenes\furgonetaPeugeot.jpg" />
+    <None Remove="Imagenes\furgonetaVW.jpg" />
+    <None Remove="Imagenes\moto.png" />
+    <None Remove="Imagenes\motoHD.jpg" />
+    <None Remove="Imagenes\motoYamaha.jpg" />
+    <None Remove="Imagenes\peugeot508.jpg" />
+    <None Remove="Imagenes\taller.png" />
+    <None Remove="Imagenes\touran.jpg" />
+    <None Remove="Imagenes\toyotaCHR.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagenes\coche.png" />
+    <Resource Include="Imagenes\concesionario.ico" />
+    <Resource Include="Imagenes\furgoneta.png" />
+    <Resource Include="Imagenes\furgonetaPeugeot.jpg" />
+    <Resource Include="Imagenes\furgonetaVW.jpg" />
+    <Resource Include="Imagenes\moto.png" />
+    <Resource Include="Imagenes\motoHD.jpg" />
+    <Resource Include="Imagenes\motoYamaha.jpg" />
+    <Resource Include="Imagenes\peugeot508.jpg" />
+    <Resource Include="Imagenes\taller.png" />
+    <Resource Include="Imagenes\touran.jpg" />
+    <Resource Include="Imagenes\toyotaCHR.jpg" />
+  </ItemGroup>
+
+</Project>
